@@ -1,1 +1,8 @@
 <h1>Profile</h1>
+
+Email: <%= current_user.email %><br>
+Name: <%= current_user.name %><br>
+Username: <%= current_user.username %><br>
+UID: <%= current_user.uid %><br>
+
+<%= link_to "Logout", logout_path %>
