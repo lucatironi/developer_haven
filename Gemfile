@@ -32,6 +32,9 @@ gem 'foreman'
 # Use Unicorn as the app server
 gem 'unicorn'
 
+# Use dotenv to load environment variables
+gem 'dotenv-rails'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
